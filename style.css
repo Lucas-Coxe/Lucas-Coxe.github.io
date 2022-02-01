@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    
+}
+/* This .nav will effect all pages */
+.nav{
+    float: right;
+    font-size: larger;
+}
+
+.nav-link{
+    color: salmon;
+}
+/* This .landing-page, .name, and .title will only effect the landing page */
+.landing-page{
+    text-align: center;
+    font-size: xx-large;
+    color: salmon;
+    position: relative;
+    top: 250px;    
+}
+
+.Name{
+    font-size: 100px;
+    text-align: left;
+}
+
+.title{
+    text-align: left;
+    font-size: 40px;
+}
+
+.picture{
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+
+}
+
+/* This next section will be for the About me part */
+
+.About{
+    text-align: left;
+    position: relative;
+    top: 200px;
+    color: salmon;
+    font-size: 100px;
+
+}
+
+.description{
+    text-align: left;
+    position: relative;
+    top: 220px;
+    font-size: x-large;
+    color: salmon;
+}
