@@ -5,33 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Contact page</title>
   </head>
   <body>
     <!-- Nav bar -->
     <nav class="nav">
+      <div>
       <a class="nav-link active" aria-current="page" href="index.html"
-        >Lucas Coxe's Portfolio</a
-      >
+        >Home</a>
+
       <a class="nav-link" href="about-me.html">About me</a>
       <a class="nav-link" href="projects.html">Projects</a>
       <a class="nav-link" href="git-hub.html">Git Hub</a>
+     
+      
+      
     </nav>
+
+
+    <div class="contact-page">
+      <h1>Interested in more?</h1>
+      <h2>Here is how to contact me!</h2>
+    </div>
 
     <!-- Contact section -->
     <div class="container-fluid">
-        <form action="https://formspree.io/f/mpzbppbk" method="POST">
-          <label>
+      <form action="https://formspree.io/f/mpzbppbk" method="POST">
+        <div>
+          <label class="email">
             Your email:
-            <input type="email" name="_replyto" />
+            <input type="email" name="replyto" />
           </label>
-          <label>
+        </div>
+        <div>
+          <label class="messages">
             Your message:
             <textarea name="message"></textarea>
           </label>
-          <!-- your other form fields go here -->
-          <button type="submit">Send</button>
-        </form>
-      </div>
+        </div>
+        <!-- your other form fields go here -->
+        <button class="send" type="submit">Send</button>
+      </form>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer5" style="background-color: salmon">
+      <p class="footer-info">Copyright: © 2022 Lucas Coxe</p>
+    </footer>
   </body>
 </html>
